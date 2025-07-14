@@ -1,0 +1,14 @@
+##How to use github
+github上创建一个库
+依照如下操作添加（git add .//git commit -m "first commit"//git push）
+echo "# 111" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/xiangf856/111.git
+git push -u origin main
+依照如下操作添加库
+git remote add origin https://github.com/xiangf856/111.git
+git branch -M main
+git push -u origin main
